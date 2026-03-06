@@ -41,7 +41,7 @@ export async function ContactSection() {
 
               {profile.email && (
                 <div className="flex items-start gap-3 @md/info:gap-4">
-                  <div className="w-10 h-10 @md/info:w-12 @md/info:h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 @md/info:w-12 @md/info:h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                     <span className="text-xl @md/info:text-2xl">📧</span>
                   </div>
                   <div className="min-w-0">
@@ -60,7 +60,7 @@ export async function ContactSection() {
 
               {profile.phone && (
                 <div className="flex items-start gap-3 @md/info:gap-4">
-                  <div className="w-10 h-10 @md/info:w-12 @md/info:h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 @md/info:w-12 @md/info:h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                     <span className="text-xl @md/info:text-2xl">📱</span>
                   </div>
                   <div className="min-w-0">
@@ -79,7 +79,7 @@ export async function ContactSection() {
 
               {profile.location && (
                 <div className="flex items-start gap-3 @md/info:gap-4">
-                  <div className="w-10 h-10 @md/info:w-12 @md/info:h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 @md/info:w-12 @md/info:h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                     <span className="text-xl @md/info:text-2xl">📍</span>
                   </div>
                   <div className="min-w-0">
